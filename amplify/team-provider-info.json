@@ -1,0 +1,15 @@
+{
+    "testenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pushex-testenv-214733-authRole",
+            "UnauthRoleArn": "arn:aws:iam::208617258671:role/amplify-pushex-testenv-214733-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::208617258671:role/amplify-pushex-testenv-214733-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-pushex-testenv-214733-deployment",
+            "UnauthRoleName": "amplify-pushex-testenv-214733-unauthRole",
+            "StackName": "amplify-pushex-testenv-214733",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:208617258671:stack/amplify-pushex-testenv-214733/eb43b480-27dd-11ea-a071-0efa8245db7e",
+            "AmplifyAppId": "d2m9ge8jfiz733"
+        }
+    }
+}
