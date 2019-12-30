@@ -1,0 +1,46 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "purrsongbackendfunction1",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            }
+        }
+    ],
+    "resourceName": "purrsongkmpushtest1",
+    "apiName": "purrsongkmpushtest1",
+    "functionArns": [
+        {
+            "lambdaFunction": "purrsongbackendfunction1"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-pushex-testenv-214733-authRole",
+        "unAuthRoleName": "amplify-pushex-testenv-214733-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "purrsongbackendfunction1",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

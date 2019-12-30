@@ -10,6 +10,18 @@
             "StackName": "amplify-pushex-testenv-214733",
             "StackId": "arn:aws:cloudformation:ap-northeast-1:208617258671:stack/amplify-pushex-testenv-214733/eb43b480-27dd-11ea-a071-0efa8245db7e",
             "AmplifyAppId": "d2m9ge8jfiz733"
+        },
+        "categories": {
+            "auth": {
+                "cognitof4deec65": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "pushexmnymg-testenv",
+                    "Id": "ea738cfad7a04a0792e85fdd103002c3",
+                    "Region": "us-west-2"
+                }
+            }
         }
     }
 }

@@ -1,1 +1,39 @@
-{}
+{
+    "function": {
+        "purrsongbackendfunction1": {
+            "service": "Lambda",
+            "providerPlugin": "awscloudformation",
+            "build": true
+        }
+    },
+    "auth": {
+        "cognitof4deec65": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "api": {
+        "purrsongkmpushtest1": {
+            "service": "API Gateway",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [
+                {
+                    "category": "function",
+                    "resourceName": "purrsongbackendfunction1",
+                    "attributes": [
+                        "Name",
+                        "Arn"
+                    ]
+                }
+            ]
+        }
+    },
+    "notifications": {
+        "pushexmnymg": {
+            "service": "Pinpoint",
+            "channels": [
+                "APNS"
+            ]
+        }
+    }
+}

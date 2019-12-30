@@ -119,6 +119,14 @@ PODS:
     - React-jsi (= 0.61.5)
     - React-jsiexecutor (= 0.61.5)
     - Yoga
+  - React-Core/RCTPushNotificationHeaders (0.61.5):
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-Core/Default
+    - React-cxxreact (= 0.61.5)
+    - React-jsi (= 0.61.5)
+    - React-jsiexecutor (= 0.61.5)
+    - Yoga
   - React-Core/RCTSettingsHeaders (0.61.5):
     - Folly (= 2018.10.22.00)
     - glog
@@ -198,6 +206,8 @@ PODS:
     - React-Core/RCTLinkingHeaders (= 0.61.5)
   - React-RCTNetwork (0.61.5):
     - React-Core/RCTNetworkHeaders (= 0.61.5)
+  - React-RCTPushNotification (0.61.5):
+    - React-Core/RCTPushNotificationHeaders (= 0.61.5)
   - React-RCTSettings (0.61.5):
     - React-Core/RCTSettingsHeaders (= 0.61.5)
   - React-RCTText (0.61.5):
@@ -242,6 +252,7 @@ DEPENDENCIES:
   - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
   - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
   - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTPushNotification (from `../node_modules/react-native/Libraries/PushNotificationIOS`)
   - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
@@ -294,6 +305,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/LinkingIOS"
   React-RCTNetwork:
     :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTPushNotification:
+    :path: "../node_modules/react-native/Libraries/PushNotificationIOS"
   React-RCTSettings:
     :path: "../node_modules/react-native/Libraries/Settings"
   React-RCTText:
@@ -327,12 +340,13 @@ SPEC CHECKSUMS:
   React-RCTImage: 6b8e8df449eb7c814c99a92d6b52de6fe39dea4e
   React-RCTLinking: 121bb231c7503cf9094f4d8461b96a130fabf4a5
   React-RCTNetwork: fb353640aafcee84ca8b78957297bd395f065c9a
+  React-RCTPushNotification: 6d0c0cd88a40465677e07a614f65ea88c1c3de24
   React-RCTSettings: 8db258ea2a5efee381fcf7a6d5044e2f8b68b640
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 1412b68b313184e4031ec6e78cab3ba07080fae1
+PODFILE CHECKSUM: 89737f4c85b6ae18bb5fc95d982104a342a1fe42
 
 COCOAPODS: 1.8.4
