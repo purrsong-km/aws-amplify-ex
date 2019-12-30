@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-pushex-testenv-214733-deployment",
-					"S3Key": "amplify-builds/purrsongbackendfunction1-71374e4539392f306436-build.zip"
+					"S3Key": "amplify-builds/purrsongbackendfunction1-43384a72414771384d4b-build.zip"
 				}
 			}
 		},
